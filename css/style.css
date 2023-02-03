@@ -10,23 +10,31 @@ img{
 }
 
 body {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Fredoka One', sans-serif;
     background-color: rgb(105, 125, 240);
 }
 
-.container {
+.container1 {
+    max-width: 1100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.container2 {
     max-width: 1100px;
     width: 80%;
     margin: 0 auto;
     background-color: rgb(173, 120, 120);
+    border-radius: 15%;
 }
 
 .py-3 {
     padding: 3rem 0;
 }
 
-.mb-3 {
-    margin-bottom: 3rem;
+.mb-2 {
+    margin-bottom: 2rem;
 }
 
 .text-centered {
@@ -40,6 +48,7 @@ body {
 
 .row {
     border: 2px solid red;
+    margin-top: 20px;
 }
 
 .clearfix::after {
@@ -51,7 +60,35 @@ body {
 .col {
     border: 2px solid yellow;
     float: left;
-    width: calc(100% / 3);
-    padding: .5rem;
+    width: calc(100% / 3 - 40px);
+    margin: 0 20px;
+}
+
+.card {
+    background-color: ;
+}
+
+.card img {
+    width: 100%;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    float: left;
+}
+
+.card-title {
+    width: calc(100% - 100px);
+    float: left;
+    text-transform: uppercase;
+    margin-bottom: .3rem;
+
+}
+
+.card-job {
+    width: calc(100% - 100px);
+    float: left;
+    margin-bottom: .3rem;
 }
 
